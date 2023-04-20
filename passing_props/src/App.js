@@ -1,9 +1,10 @@
-import './Heading';
+import Heading from './Heading';
 
 function App() {
   return (
     <div className="App">
-        <Heading />
+        <Heading firstName='Bob'/>
+        <Heading firstName="Jack"/>
     </div>
 );
 }
